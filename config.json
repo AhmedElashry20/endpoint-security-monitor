@@ -1,0 +1,38 @@
+{
+  "scan_interval_seconds": 30,
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "ahmedmoustafaelashry@gmail.com",
+    "sender_password": "Ahmed@2060",
+    "recipient_emails": [
+      "admin@company.com",
+      "security@company.com"
+    ],
+    "use_tls": true
+  },
+  "monitoring": {
+    "remote_access": true,
+    "network_connections": true,
+    "software_installs": true,
+    "usb_devices": true,
+    "file_changes": true,
+    "suspicious_processes": true
+  },
+  "live_stream": {
+    "dashboard_url": "http://192.168.100.210:5000",
+    "stream_fps": 3,
+    "stream_quality": 40,
+    "stream_scale": 50,
+    "always_stream": false
+  },
+  "watched_directories": [
+    "~/Documents",
+    "~/Desktop",
+    "~/Downloads"
+  ],
+  "alert_cooldown_minutes": 15,
+  "log_file": "monitor.log",
+  "threats_log": "threats.json"
+}

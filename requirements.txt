@@ -1,0 +1,8 @@
+flask>=2.0
+flask-socketio>=5.0
+gevent>=21.0
+gevent-websocket>=0.10
+python-socketio[client]>=5.0
+websocket-client>=1.0
+Pillow>=9.0
+mss>=6.0

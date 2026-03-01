@@ -2,6 +2,12 @@
 
 A comprehensive endpoint security monitoring and protection system for organizations. Detect unauthorized remote access, monitor device activity in real-time, and enforce access control policies across your network.
 
+## Dashboard Preview
+
+![Dashboard - Live Monitoring](screenshot.png)
+
+![Dashboard - Activity Log](screenshot2.png)
+
 ## Features
 
 - **Real-time Remote Access Detection** — Detects 25+ remote access tools (AnyDesk, TeamViewer, VNC, RustDesk, etc.)

@@ -5,7 +5,7 @@
     "smtp_server": "smtp.gmail.com",
     "smtp_port": 587,
     "sender_email": "ahmedmoustafaelashry@gmail.com",
-    "sender_password": "Ahmed@2060",
+    "sender_password": "your-app-password",
     "recipient_emails": [
       "admin@company.com",
       "security@company.com"
